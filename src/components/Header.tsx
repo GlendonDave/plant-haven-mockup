@@ -12,6 +12,11 @@ const Header = () => {
         </Link>
         
         <nav className="flex items-center space-x-4">
+          <Link to="/dashboard">
+            <Button variant="ghost" size="sm">
+              Dashboard
+            </Button>
+          </Link>
           <Link to="/login">
             <Button variant="ghost" size="sm">
               Login
